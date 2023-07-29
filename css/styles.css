@@ -18,6 +18,10 @@
     --desc-title-color:#2e2f42;
    --desc-team-title-color:#2e2f42;
    --desc-team-subtitle-color:#2e2f42;
+
+   /* Portfolio */
+   --list-titel-color:#2e2f42;
+   --list-text-color:#434455;
 }
 
 
@@ -301,3 +305,24 @@ letter-spacing:0.02em;
 /* Portfolio */
 /* main */
 
+.list {
+list-style:none;
+}
+
+.list-row-link {
+    text-decoration: none
+}
+
+.list-titel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--list-titel-color)
+}
+.list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--list-text-color);
+}
