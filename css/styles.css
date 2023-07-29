@@ -12,6 +12,8 @@
     --footer-background-color:#2e2f42;
     --logo-color:#4d5ae5;
     --logo-desc-color:#F4F4FD;
+    --portfolio-button-color:#4d5ae5;
+    --portfolio-button-bg:#F4F4FD;
 }
 
 
@@ -27,6 +29,24 @@ button {
     cursor: pointer;
 }
 
+.portfolio-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--portfolio-button-color);
+    background-color: var(--portfolio-button-bg);
+
+}
+.portfolio-button:hover {
+color: #FFFFFF;
+background-color: #404BBF;
+}
+.portfolio-button:focus {
+color:  #FFFFFF;
+background-color: #404BBF
+}
 /* top Line */
 .nav {
 
@@ -262,4 +282,11 @@ line-height: 1.5;
 color:var(--logo-desc-color);
 letter-spacing:0.02em;
 
+}
+
+/* Portfolio */
+/* main */
+
+.list-row-link {
+    list-style: none
 }
