@@ -14,6 +14,10 @@
     --logo-desc-color:#F4F4FD;
     --portfolio-button-color:#4d5ae5;
     --portfolio-button-bg:#F4F4FD;
+    --benefits-title-color:#2e2f42;
+    --desc-title-color:#2e2f42;
+   --desc-team-title-color:#2e2f42;
+   --desc-team-subtitle-color:#2e2f42;
 }
 
 
@@ -190,7 +194,11 @@ color: currentColor;
 }
 
 .benefits-title {
-
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--benefits-title-color) ;
 }
 
 .benefits-list-item {
@@ -199,6 +207,8 @@ color: currentColor;
 }
 
 .benefits-list-desc {
+line-height: 1.5;
+letter-spacing:0.02em;
 
 }
 
@@ -210,10 +220,12 @@ color: currentColor;
 
 .desc-title {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-
+    text-align: center;
+    text-transform: capitalize;
+    color:var(--desc-title-color)
 }
 
 .list {
@@ -231,7 +243,7 @@ color: currentColor;
 
 /* Our Team */
 .desc-team {
-
+background-color: #F4F4FD;
 }
 
 .desc-team-title {
@@ -240,6 +252,7 @@ line-height: 1.11;
 text-align:center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color:var(--desc-team-title-color) ;
 }
 
 .list {
@@ -260,6 +273,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color:var(--desc-team-subtitle-color)
 }
 
 .desc-list-text {
