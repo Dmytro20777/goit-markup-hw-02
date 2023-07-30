@@ -18,6 +18,7 @@
     --desc-title-color:#2e2f42;
    --desc-team-title-color:#2e2f42;
    --desc-team-subtitle-color:#2e2f42;
+   --portfolio-footer-bg:#2e2f42;
 
    /* Portfolio */
    --list-titel-color:#2e2f42;
@@ -264,7 +265,7 @@ color:var(--desc-team-title-color) ;
 background-color: #FFFFFF;
 }
 
-.list {
+.list {list-style: none;
 
 }
 
@@ -310,9 +311,14 @@ letter-spacing:0.02em;
 
 /* Portfolio */
 /* main */
-
+.portfolio-footer {
+background-color:var(--portfolio-footer-bg)
+}
 .list {
 list-style:none;
+}
+.link{
+    text-decoration: none
 }
 
 .list-row-link {
