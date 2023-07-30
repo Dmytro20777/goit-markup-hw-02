@@ -32,6 +32,17 @@ font-family: "Roboto", sans-serif;
 color: var(--primary-colors);
 background-color: var(--bg-color);
 }
+
+.link {
+    text-decoration: none;
+
+    /* Studio */
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: currentColor;
+}
    
 button {
     font-family: inherit;
@@ -107,16 +118,7 @@ letter-spacing: 0.002em;
 color:var(--color-nav-list-item) ;
 }
 
-.link {
-text-decoration: none;
 
-    /* Studio */
-        font-family: 'Roboto';
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-color: currentColor;
-}
 
 .link:hover {
     color:#404bbf ;
