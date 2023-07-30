@@ -87,6 +87,9 @@ background-color: #404BBF
 
 
 }
+.link {
+    text-decoration: none;
+}
 .logo-dark {
     color: var(--navyblue, #2E2F42);
 
