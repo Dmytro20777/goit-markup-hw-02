@@ -270,6 +270,7 @@ background-color: #FFFFFF;
 
 .desc-team-list-item {
     list-style: none;
+    background-color: #FFFFFF;
 
 }
 
@@ -295,7 +296,7 @@ color: var(--desc-list-text)
 .footer{
     background-color: var(--footer-background-color)
 }
-.link-logo {
+.logo {
 font-family: "Raleway", sans-serif;
 line-height: 1.17;
 color:var(--logo-color)
