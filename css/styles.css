@@ -60,7 +60,7 @@ background-color: #404BBF
 
 }
 
-.logo {
+.link-logo {
         color: var(--logo-color);
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -206,7 +206,7 @@ font-weight: 500;
 }
 
 .list {
-    
+
 }
 
 .benefits-list-item {
@@ -261,6 +261,7 @@ text-align:center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color:var(--desc-team-title-color) ;
+background-color: #FFFFFF;
 }
 
 .list {
@@ -294,7 +295,7 @@ color: var(--desc-list-text)
 .footer{
     background-color: var(--footer-background-color)
 }
-.logo {
+.link-logo {
 font-family: "Raleway", sans-serif;
 line-height: 1.17;
 color:var(--logo-color)
