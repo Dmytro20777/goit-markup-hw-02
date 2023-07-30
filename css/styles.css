@@ -205,6 +205,10 @@ font-weight: 500;
     color:var(--benefits-title-color) ;
 }
 
+.list {
+    
+}
+
 .benefits-list-item {
     list-style: none;
 
